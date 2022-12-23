@@ -1,0 +1,29 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.note{
+    font-size: 18px;
+    color: black;
+
+}
+
+body{
+    background-size: cover;
+
+}
+
+canvas{
+    background: black;
+    border: 5px, solid white;
+    border-radius: 20px;
+    box-shadow: 5px, 5px, 5px, plum;
+    
+}
+@keyframes karthikeyan{
+    from{box-shadow:2px 2px 38px plum;}
+    to{box-shadow:2px 2px 38px blue;}
+}
