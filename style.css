@@ -16,14 +16,31 @@ body{
 
 }
 
-canvas{
-    background: black;
-    border: 5px, solid white;
-    border-radius: 20px;
-    box-shadow: 5px, 5px, 5px, plum;
-    
+.div_speed{
+    float: left;
 }
-@keyframes karthikeyan{
-    from{box-shadow:2px 2px 38px plum;}
-    to{box-shadow:2px 2px 38px blue;}
+
+.div_volume{
+    float: right;
+}
+
+.div_speed_img,.div_volume_img{
+width: 200px;
+border-radius: 100px;
+
+}
+
+#speed,#volume{
+font-size: 23px;
+margin: 15px;
+}
+
+.play_button{
+    width: 130px;
+    font-size: 23px;
+}
+
+canvas{
+border:5px solid whitesmoke ;
+border-radius: 20px;
 }
